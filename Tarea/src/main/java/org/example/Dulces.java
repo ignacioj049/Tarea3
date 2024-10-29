@@ -1,3 +1,4 @@
+package org.example;
 abstract class Dulce extends Producto {
     public Dulce(int serie, String nombre, PrecioProducto precio) {
         super(serie, nombre, precio);
@@ -15,3 +16,5 @@ class Super8 extends Dulce {
         super(serie, "Super8", PrecioProducto.SUPER8);
     }
 }
+
+

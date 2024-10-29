@@ -1,3 +1,4 @@
+package org.example;
 public class Expendedor {
     private Deposito<Producto>[] depositos;
     private Deposito<Moneda> depositoVuelto;

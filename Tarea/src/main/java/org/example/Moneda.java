@@ -1,6 +1,5 @@
 package org.example;
-
-public class Moneda public abstract class Moneda implements Comparable<Moneda> {
+public abstract class Moneda implements Comparable<Moneda> {
     public abstract int getValor();
 
     @Override
@@ -33,5 +32,4 @@ public class Moneda public abstract class Moneda implements Comparable<Moneda> {
             return 100;
         }
     }
-}{
 }
