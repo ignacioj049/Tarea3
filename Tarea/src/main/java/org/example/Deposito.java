@@ -1,32 +1,19 @@
 package org.example;
+
 import java.util.ArrayList;
+import java.util.List;
 
-public class Deposito<T> {
-    private ArrayList<T> items;
+public class Deposito<T extends Producto> {
+    private List<T> productos = new ArrayList<>();
 
-    public Deposito() {
-        items = new ArrayList<>();
+    public void addProducto(T producto) {
+        productos.add(producto);
     }
 
-    public void addProducto(T item) {
-        items.add(item);
-    }
-
-    public T getProducto() {
-        if (items.isEmpty()) {
-            return null;
+    public T getProducto() throws NoHayProductoException {
+        if (productos.isEmpty()) {
+            throw new NoHayProductoException("No hay productos disponibles");
         }
-        return items.remove(0);
-    }
-
-    public void addMoneda(T item) {
-        items.add(item);
-    }
-
-    public T getMoneda() {
-        if (items.isEmpty()) {
-            return null;
-        }
-        return items.remove(0);
+        return productos.remove(0);
     }
 }

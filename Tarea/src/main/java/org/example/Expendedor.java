@@ -1,12 +1,12 @@
 package org.example;
+
 public class Expendedor {
     private Deposito<Producto>[] depositos;
     private Deposito<Moneda> depositoVuelto;
 
     public Expendedor(int cantidad) {
-        this.depositos = new Deposito[5]; // 3 bebidas y 2 dulces
+        this.depositos = new Deposito[5];
 
-        // Llenar mágicamente los depósitos con productos
         this.depositos[0] = new Deposito<>();
         for (int i = 0; i < cantidad; i++) {
             depositos[0].addProducto(new CocaCola(100 + i));

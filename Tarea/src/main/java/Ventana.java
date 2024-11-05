@@ -1,14 +1,27 @@
+package org.example;
+
 import javax.swing.*;
+import java.awt.*;
 
 public class Ventana extends JFrame {
+    private Expendedor expendedor;
+
     public Ventana() {
+
         setTitle("Expendedor de Productos");
-        setSize(400, 500);
+        setSize(500, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+        // Crear un expendedor con la cantidad de productos deseada
+        expendedor = new Expendedor(5);
 
-        add(new PanelPrincipal());
+        // Configurar el layout principal
+        setLayout(new BorderLayout());
+
+        // Añadir el panel principal y el panel de comprador
+        add(new PanelPrincipal(expendedor), BorderLayout.CENTER);
+        add(new PanelComprador(), BorderLayout.SOUTH);
     }
 
     public static void main(String[] args) {
