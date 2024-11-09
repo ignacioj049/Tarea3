@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73b24a70-aee7-4890-b160-48bdd3903c15" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NoHayProductoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ventana.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dulces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dulces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Expendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PanelComprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PanelComprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PanelExpendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PanelExpendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PanelPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PanelPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PrecioProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PrecioProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vendible.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +59,25 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ignacio Jara/Tarea3/Tarea/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Ventana" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ventana" />
+      <module name="Tarea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
