@@ -1,3 +1,5 @@
+package org.example;
+
 public enum PrecioProducto {
     COCACOLA(700), SPRITE(600), FANTA(500), SNICKERS(400), SUPER8(300);
 

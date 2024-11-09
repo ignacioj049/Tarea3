@@ -1,39 +1,39 @@
 package org.example;
 
-public abstract class Bebida implements Producto {
-    private int precio;
-    private String nombre;
-
-    public Bebida(int precio, String nombre) {
-        this.precio = precio;
-        this.nombre = nombre;
+abstract class Bebida extends Producto {
+    public Bebida(int serie, String nombre, PrecioProducto precio) {
+        super(serie, nombre, precio);
     }
 
-    @Override
-    public int getPrecio() {
-        return precio;
-    }
-
-    @Override
-    public String getNombre() {
-        return nombre;
-    }
+    public abstract String beber();
 }
 
 class Sprite extends Bebida {
-    public Sprite() {
-        super(1000, "Sprite");
+    public Sprite(int serie) {
+        super(serie, "Sprite", PrecioProducto.SPRITE);
+    }
+
+    public String beber() {
+        return "sprite";
     }
 }
 
 class CocaCola extends Bebida {
-    public CocaCola() {
-        super(1200, "CocaCola");
+    public CocaCola(int serie) {
+        super(serie, "CocaCola", PrecioProducto.COCACOLA);
+    }
+
+    public String beber() {
+        return "cocacola";
     }
 }
 
 class Fanta extends Bebida {
-    public Fanta() {
-        super(1100, "Fanta");
+    public Fanta(int serie) {
+        super(serie, "Fanta", PrecioProducto.FANTA);
+    }
+
+    public String beber() {
+        return "fanta";
     }
 }

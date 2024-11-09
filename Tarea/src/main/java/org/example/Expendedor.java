@@ -51,10 +51,11 @@ public class Expendedor {
         }
 
         if (moneda.getValor() < producto.getPrecio()) {
-            depositoVuelto.addMoneda(moneda); // Devolver la moneda como vuelto
+            depositoVuelto.addMoneda(moneda);
             throw new PagoInsuficienteException("Pago insuficiente");
         }
 
+        // Calcular el vuelto
         int vuelto = moneda.getValor() - producto.getPrecio();
         while (vuelto >= 100) {
             depositoVuelto.addMoneda(new Moneda.Moneda100());
@@ -62,6 +63,10 @@ public class Expendedor {
         }
 
         return producto;
+    }
+
+    public int calcularVuelto(int dineroIngresado, int precioProducto) {
+        return dineroIngresado - precioProducto;
     }
 
     public Moneda getVuelto() {

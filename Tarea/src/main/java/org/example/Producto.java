@@ -1,4 +1,5 @@
 package org.example;
+
 public abstract class Producto {
     private int serie;
     private String nombre;
